@@ -44,23 +44,23 @@
                enableUpdateByExample="false">
             <columnOverride column="content" jdbcType="VARCHAR"></columnOverride>
             <columnOverride column="content_md" jdbcType="VARCHAR"></columnOverride>
-            <columnOverride column="is_delete" jdbcType="Integer"></columnOverride>
+            <columnOverride column="is_delete" jdbcType="INTEGER"></columnOverride>
         </table>
         <table tableName="article_category" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false">
-            <columnOverride column="is_delete" jdbcType="Integer"></columnOverride>
+            <columnOverride column="is_delete" jdbcType="INTEGER"></columnOverride>
         </table>
         <table tableName="article_tag" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false">
-            <columnOverride column="is_delete" jdbcType="Integer"></columnOverride>
+            <columnOverride column="is_delete" jdbcType="INTEGER"></columnOverride>
         </table>
         <table tableName="category" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false">
-            <columnOverride column="is_delete" jdbcType="Integer"></columnOverride>
+            <columnOverride column="is_delete" jdbcType="INTEGER"></columnOverride>
         </table>
         <table tableName="tag" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false">
-            <columnOverride column="is_delete" jdbcType="Integer"></columnOverride>
+            <columnOverride column="is_delete" jdbcType="INTEGER"></columnOverride>
         </table>
     </context>
 </generatorConfiguration>

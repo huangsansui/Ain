@@ -206,4 +206,7 @@
       is_delete = #{isDelete,jdbcType=INTEGER}
     where article_id = #{articleId,jdbcType=BIGINT}
   </update>
+    <select id="findByArticleId" resultMap="BaseResultMap">
+      select * from article where article_id = #{articleId}
+    </select>
 </mapper>

@@ -1,6 +1,6 @@
 package top.huangsansui.blog.dao;
 
-import top.huangsansui.blog.model.Article;
+import org.apache.ibatis.annotations.Param;import top.huangsansui.blog.model.Article;
 
 public interface ArticleMapper {
     /**
@@ -50,4 +50,6 @@ public interface ArticleMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Article record);
+
+    Article findByArticleId(@Param("articleId")Long articleId);
 }

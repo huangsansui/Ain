@@ -16,14 +16,14 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 /**
- * Function: 数据源配置
+ * Function:
+ * 数据源配置
  *
  * @author: Huangqing
  * @Date: 2018/12/13
  * @since: JDK 1.8
  */
 @Configuration
-@MapperScan("top.huangsansui.blog.dao")
 public class DruidConfig {
 
     private Logger logger = LoggerFactory.getLogger(DruidConfig.class);
@@ -75,6 +75,7 @@ public class DruidConfig {
 
     @Value("${spring.datasource.logSlowSql}")
     private String logSlowSql;
+
 
     @Bean
     public ServletRegistrationBean druidServlet() {

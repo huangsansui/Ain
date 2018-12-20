@@ -20,6 +20,6 @@ public class ArticleServiceImpl implements IArticleService{
 
     @Override
     public void test() {
-        Article article = articleMapper.selectByPrimaryKey(1L);
+        articleMapper.selectByPrimaryKey(1L);
     }
 }
